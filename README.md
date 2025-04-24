@@ -26,6 +26,12 @@
 
 ---
 
+### **Wire Frame**
+
+![Image](WF.png)
+
+---
+
 ### **_Features_**
 
 - 6 cards (8 matching pairs) with numbers from 1–10
