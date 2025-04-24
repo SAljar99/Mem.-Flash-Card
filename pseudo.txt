@@ -1,0 +1,38 @@
+Start game:
+  - Initialize variables: board, moves, timer, trials, matchedPairs
+  - Randomly select 8 numbers between 1–10
+  - Create 2 cards for each number and shuffle them
+  - Display the cards face down on the board
+  - Start timer
+
+When card is clicked:
+  - If two cards are already flipped, do nothing
+
+  - Flip the clicked card
+  - If two cards are now flipped:
+    - Increment move counter
+
+    - Check if they match
+
+      - If yes:
+        - Mark cards as matched
+        - Store matched value
+        - If all pairs matched:
+          - Stop timer
+          - Generate random math operation using matched values
+          - Show math challenge
+
+      - If no:
+        - Flip cards back after delay
+
+When math challenge submit:
+  - Increment trial counter
+  - Evaluate user's answer
+
+    - If correct:
+      - Show success message
+    - If incorrect:
+      - Show error and allow retry
+
+When reset button clicked: 
+  - Restart the game
