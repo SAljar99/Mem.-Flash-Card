@@ -28,7 +28,7 @@
 
 ### **Wire Frame**
 
-![Image](WF.png)
+![Image](Sample.png)
 
 ---
 
@@ -64,9 +64,9 @@
 
 ### **_Future Updates_**
 
-- Add sound effects for card flips and correct answers
+- Add sound effects for card flips
 
-- Introduce difficulty levels (Easy/Medium/Hard)
+- Display game statistics after the game
 
 - Add animations for matched pairs
 
